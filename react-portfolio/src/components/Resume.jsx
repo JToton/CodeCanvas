@@ -1,0 +1,38 @@
+import React from "react";
+
+function Resume() {
+  return (
+    <section className="bg-background text-text p-8">
+      <h2 className="text-3xl font-bold text-primary mb-6">Resume</h2>
+
+      <div className="mb-8">
+        <a
+          href="path/to/your/resume.pdf"
+          download
+          className="bg-accent text-secondary py-2 px-4 rounded hover:bg-primary transition duration-300"
+        >
+          Download Resume
+        </a>
+      </div>
+
+      <div className="bg-secondary shadow-lg rounded-lg p-6">
+        <h3 className="text-2xl font-semibold text-primary mb-4">
+          Proficiencies
+        </h3>
+        <ul className="grid grid-cols-2 md:grid-cols-3 gap-4">
+          <li className="bg-background p-3 rounded shadow">JavaScript</li>
+          <li className="bg-background p-3 rounded shadow">React</li>
+          <li className="bg-background p-3 rounded shadow">Node.js</li>
+          <li className="bg-background p-3 rounded shadow">HTML/CSS</li>
+          <li className="bg-background p-3 rounded shadow">Git</li>
+          <li className="bg-background p-3 rounded shadow">RESTful APIs</li>
+          {/* TODO: Add more proficiencies later */}
+        </ul>
+      </div>
+
+      {/* TODO: add more sections here, like Work Experience, Education, etc. */}
+    </section>
+  );
+}
+
+export default Resume;
