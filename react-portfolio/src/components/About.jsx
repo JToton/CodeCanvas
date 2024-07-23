@@ -13,11 +13,13 @@ function About() {
         />
         <div className="bg-secondary p-6 rounded-lg shadow-lg">
           <p className="text-lg leading-relaxed mb-4">
-            Hello! I'm a passionate and dedicated web developer with a strong
+            Hello! I am a passionate and dedicated web developer with a robust
             foundation in both front-end and back-end technologies. I am
             actively seeking a full-stack web development position where I can
             leverage my diverse skill set to create dynamic and user-friendly
-            web applications.
+            web applications. With hands-on experience in software quality
+            assurance testing, I can ensure that the applications I develop
+            deliver an excellent, defect-free user experience.
           </p>
         </div>
       </div>
