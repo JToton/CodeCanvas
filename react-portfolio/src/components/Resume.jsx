@@ -7,6 +7,7 @@ function Resume() {
 
       <div className="mb-8">
         <a
+          /* TODO: react pdf npm package*/
           href="path/to/your/resume.pdf"
           download
           className="bg-accent text-secondary py-2 px-4 rounded hover:bg-primary transition duration-300"
@@ -25,8 +26,30 @@ function Resume() {
           <li className="bg-background p-3 rounded shadow">Node.js</li>
           <li className="bg-background p-3 rounded shadow">HTML/CSS</li>
           <li className="bg-background p-3 rounded shadow">Git</li>
-          <li className="bg-background p-3 rounded shadow">RESTful APIs</li>
-          {/* TODO: Add more proficiencies later */}
+
+          <li className="bg-background p-3 rounded shadow">Bootstrap</li>
+          <li className="bg-background p-3 rounded shadow">Tailwind</li>
+          <li className="bg-background p-3 rounded shadow">MongoDB</li>
+          <li className="bg-background p-3 rounded shadow">MERN</li>
+          <li className="bg-background p-3 rounded shadow">
+            Progressive Web Applications (PWA)
+          </li>
+
+          <li className="bg-background p-3 rounded shadow">NoSQL</li>
+          <li className="bg-background p-3 rounded shadow">
+            Model-View-Controller (MVC)
+          </li>
+          <li className="bg-background p-3 rounded shadow">
+            Object-Relational Mapping (ORM)
+          </li>
+          <li className="bg-background p-3 rounded shadow">SQL</li>
+          <li className="bg-background p-3 rounded shadow">Express.js</li>
+          <li className="bg-background p-3 rounded shadow">
+            Object-Oriented Programming (OOP)
+          </li>
+          <li className="bg-background p-3 rounded shadow">Server-Side APIs</li>
+          <li className="bg-background p-3 rounded shadow">Third-Party APIs</li>
+          <li className="bg-background p-3 rounded shadow">Web APIs</li>
         </ul>
       </div>
 
