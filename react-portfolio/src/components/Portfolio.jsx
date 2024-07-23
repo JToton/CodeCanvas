@@ -71,22 +71,24 @@ function Portfolio() {
   return (
     <section className="bg-background text-text p-8">
       <h2 className="text-3xl font-bold text-primary mb-6">Recent Projects</h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
         {projects.map((project, index) => (
           <div
             key={index}
-            className="bg-secondary rounded-lg shadow-lg overflow-hidden"
+            className="bg-secondary rounded-lg shadow-lg overflow-hidden flex flex-col"
           >
-            <img
-              src={project.image}
-              alt={project.title}
-              className="w-full h-48 object-cover"
-            />
-            <div className="p-4">
-              <h3 className="text-xl font-semibold text-primary mb-2">
+            <div className="relative pt-[56.25%]">
+              <img
+                src={project.image}
+                alt={project.title}
+                className="absolute top-0 left-0 w-full h-full object-cover"
+              />
+            </div>
+            <div className="p-6 flex-grow">
+              <h3 className="text-2xl font-semibold text-primary mb-2">
                 {project.title}
               </h3>
-              <div className="flex justify-between">
+              <div className="flex justify-between mt-auto">
                 {project.deployedLink ? (
                   <a
                     href={project.deployedLink}
