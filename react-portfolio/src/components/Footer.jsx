@@ -20,6 +20,14 @@ function Footer() {
         >
           LinkedIn
         </a>
+        <a
+          href="https://stackoverflow.com/users/26473779/jacob-toton"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-accent transition duration-300"
+        >
+          StackOverFlow
+        </a>
       </div>
     </footer>
   );
