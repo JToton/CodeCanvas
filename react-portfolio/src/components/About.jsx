@@ -1,6 +1,7 @@
 import React from "react";
 import profileImage from "../assets/images/profile_image.jpg";
 
+// *Define the About Me functional component.
 function About() {
   return (
     <section className="bg-background text-text p-8">

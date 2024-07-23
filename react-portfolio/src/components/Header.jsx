@@ -1,6 +1,7 @@
 import React from "react";
 import Navigation from "./Navigation";
 
+// *Define the Header functional component.
 function Header() {
   return (
     <header className="bg-primary text-secondary p-4 w-full">

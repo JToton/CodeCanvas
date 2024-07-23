@@ -1,5 +1,6 @@
 import React from "react";
 
+// *Define the Footer functional component.
 function Footer() {
   return (
     <footer className="bg-primary text-secondary p-4 mt-8">

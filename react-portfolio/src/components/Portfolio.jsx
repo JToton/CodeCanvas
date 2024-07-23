@@ -10,6 +10,7 @@ import project7Image from "../assets/images/project_7.png";
 import project8Image from "../assets/images/project_8.png";
 import project9Image from "../assets/images/project_9.png";
 
+// *Define the Portfolio functional component.
 function Portfolio() {
   const projects = [
     {
@@ -88,6 +89,7 @@ function Portfolio() {
               <h3 className="text-2xl font-semibold text-primary mb-2">
                 {project.title}
               </h3>
+              {/*Ternary Statment to control deployed link creation.*/}
               <div className="flex justify-between mt-auto">
                 {project.deployedLink ? (
                   <a

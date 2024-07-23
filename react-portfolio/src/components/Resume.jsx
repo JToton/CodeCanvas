@@ -1,6 +1,7 @@
 import React from "react";
 import resumePDF from "../assets/files/Jacob_Toton_Resume.pdf";
 
+// *Define the Resume functional component.
 function Resume() {
   return (
     <section className="bg-background text-text p-8">
@@ -8,7 +9,6 @@ function Resume() {
 
       <div className="mb-8">
         <a
-          /* TODO: react pdf npm package*/
           href={resumePDF}
           download
           className="bg-accent text-secondary py-2 px-4 rounded hover:bg-primary transition duration-300"

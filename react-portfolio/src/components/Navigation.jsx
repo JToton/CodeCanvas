@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
+// *Define the Navigation functional component.
 function Navigation() {
   return (
     <nav className="space-x-4">
