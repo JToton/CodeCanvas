@@ -87,16 +87,23 @@ function Portfolio() {
                 {project.title}
               </h3>
               <div className="flex justify-between">
-                <a
-                  // project.deployedLink ? <Button ...  /> : null
-                  href={project.deployedLink}
-                  className="text-accent hover:underline"
-                >
-                  Deployed App
-                </a>
+                {project.deployedLink ? (
+                  <a
+                    href={project.deployedLink}
+                    className="text-accent hover:underline"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Deployed App
+                  </a>
+                ) : (
+                  <span className="text-gray-400">Not Deployed</span>
+                )}
                 <a
                   href={project.githubLink}
                   className="text-accent hover:underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   GitHub Repo
                 </a>
