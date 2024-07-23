@@ -53,7 +53,7 @@ function Resume() {
         </ul>
       </div>
 
-      {/* TODO: add more sections here, like Work Experience, Education, etc. */}
+      {/* TODO: Future work: add more sections here, like Work Experience, Education, etc. */}
       <div className="bg-secondary shadow-lg rounded-lg p-6">
         <h3 className="text-2xl font-semibold text-primary mb-4">
           Resume Preview
@@ -62,7 +62,7 @@ function Resume() {
           src={resumePDF}
           title="Resume Preview"
           width="100%"
-          height="600px"
+          height="1100px"
           className="border-none rounded"
         />
       </div>
