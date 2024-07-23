@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 #root {
-  @apply max-w-7xl mx-auto p-8;
+  @apply w-full mx-auto p-8;
 }

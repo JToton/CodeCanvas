@@ -11,9 +11,9 @@ import "./index.css";
 function App() {
   return (
     <Router>
-      <div className="App">
+      <div className="flex flex-col min-h-screen">
         <Header />
-        <main>
+        <main className="flex-grow bg-background">
           <Routes>
             <Route path="/" element={<About />} />
             <Route path="/portfolio" element={<Portfolio />} />

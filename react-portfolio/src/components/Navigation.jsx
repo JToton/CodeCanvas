@@ -10,7 +10,7 @@ function Navigation() {
         className="hover:text-accent transition duration-300"
         activeClassName="font-bold"
       >
-        About Me
+        About
       </NavLink>
       <NavLink
         to="/portfolio"
