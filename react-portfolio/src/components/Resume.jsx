@@ -1,4 +1,5 @@
 import React from "react";
+import resumePDF from "../assets/files/Jacob_Toton_Resume.pdf";
 
 function Resume() {
   return (
@@ -8,7 +9,7 @@ function Resume() {
       <div className="mb-8">
         <a
           /* TODO: react pdf npm package*/
-          href="path/to/your/resume.pdf"
+          href={resumePDF}
           download
           className="bg-accent text-secondary py-2 px-4 rounded hover:bg-primary transition duration-300"
         >
@@ -35,14 +36,13 @@ function Resume() {
             Progressive Web Applications (PWA)
           </li>
 
-          <li className="bg-background p-3 rounded shadow">NoSQL</li>
+          <li className="bg-background p-3 rounded shadow">SQL / NoSQL</li>
           <li className="bg-background p-3 rounded shadow">
             Model-View-Controller (MVC)
           </li>
           <li className="bg-background p-3 rounded shadow">
             Object-Relational Mapping (ORM)
           </li>
-          <li className="bg-background p-3 rounded shadow">SQL</li>
           <li className="bg-background p-3 rounded shadow">Express.js</li>
           <li className="bg-background p-3 rounded shadow">
             Object-Oriented Programming (OOP)
@@ -54,6 +54,18 @@ function Resume() {
       </div>
 
       {/* TODO: add more sections here, like Work Experience, Education, etc. */}
+      <div className="bg-secondary shadow-lg rounded-lg p-6">
+        <h3 className="text-2xl font-semibold text-primary mb-4">
+          Resume Preview
+        </h3>
+        <iframe
+          src={resumePDF}
+          title="Resume Preview"
+          width="100%"
+          height="600px"
+          className="border-none rounded"
+        />
+      </div>
     </section>
   );
 }
